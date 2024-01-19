@@ -103,10 +103,19 @@ RUN apt-get update && apt-get install -y \
 
 3. Run the `docker ps` command to check that the container is running.
 
-4. Access the Jenkins server from your web browser on `localhost:8080`
-
-5. Access the Jenkins Server directly inside the container from your terminal using the command shown below:
+4. Access the Jenkins Server directly inside the container from your terminal using the command shown below:
 
 ```sh
-docker exec -it  800f8f48466b  /bin/bash
+docker exec -it  <container_id>  /bin/bash
 ```
+
+5. Retrieve the initial Jenkins admin password using the command shown below:
+
+```sh
+cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+6. Access the Jenkins server from your web browser on `localhost:8080` and paste the `initialAdminPassword`
+
+7. Install the suggested plugins.
+
