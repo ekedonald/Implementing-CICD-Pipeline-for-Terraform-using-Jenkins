@@ -77,4 +77,6 @@ RUN apt-get update && apt-get install -y \
 
  * `RUN apt-get update && apt-get install -y terraform && rm -rf /var/lib/apt/lists/*`: These commands update the package list, installs Terraform and then removes unnecessary packages to reduce the size of the Docker image.
 
- 5. 
+ 5. `WORKDIR /app`: This line sets the working directory for subsequent commands to `/app`. This is where you'll be when you enter the container.
+
+ 6. `RUN terraform --version`: This command prints the version of Terraform to the console, allowing you to verify that the installation was successful.
