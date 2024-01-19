@@ -119,3 +119,4 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 7. Install the suggested plugins.
 
+8. Create your admin user and access Jenkins.
