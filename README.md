@@ -44,3 +44,10 @@ Jenkins comes with a docker image that can be used out of the box to run a conta
  # Switch back to the Jenkins user
  USER jenkins
 ```
+
+#### Explaining the Dockerfile
+1. `FROM jenkins/jenkins:lts`: This line specifies the base image for the Dockerfile. In this case, it's using the official Jenkins LTS (Long Term Support) image as a starting point.
+
+2. `USER root`: This command switches to the root user within the Docker image. This is done to perform actions that require elevated permissions such as installing packages.
+
+3. 
