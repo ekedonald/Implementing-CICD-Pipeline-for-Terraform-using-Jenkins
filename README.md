@@ -80,3 +80,7 @@ RUN apt-get update && apt-get install -y \
  5. `WORKDIR /app`: This line sets the working directory for subsequent commands to `/app`. This is where you'll be when you enter the container.
 
  6. `RUN terraform --version`: This command prints the version of Terraform to the console, allowing you to verify that the installation was successful.
+
+ 7. `USER jenkins`: This line switches back to the jenkins user returning to a lower privilege level. This is a good security practice to minimize the risk of running processes as the root user within the container.
+
+ ### Step 2: Building and Running the Docker Image
