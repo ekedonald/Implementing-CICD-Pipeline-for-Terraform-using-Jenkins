@@ -101,4 +101,6 @@ RUN apt-get update && apt-get install -y \
  This should output a hash data like:
 `800f8f48466b3419d7cbf37908b12f146120b31260147bdd3b433d23e60f976b`
 
+3. Run the `docker ps` command to check that the container is running.
 
+4. Access the Jenkins server from your web browser on `localhost:8080`
