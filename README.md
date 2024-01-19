@@ -50,4 +50,12 @@ Jenkins comes with a docker image that can be used out of the box to run a conta
 
 2. `USER root`: This command switches to the root user within the Docker image. This is done to perform actions that require elevated permissions such as installing packages.
 
-3. 
+3. Install necessary tools and dependencies (i.e. Git, unzip, wget, software-properties-common). The `apt-get update` command refreshes the package list and `apt get install` installs the specifies packages `(i.e. git, unzip, wget, software-properties-common)`. The `&&` is used to chain commands and `rm -rf /var/lib/apt/lists/*` removes unnecessary package lists helping to reduce the size of the Docker image.
+```sh
+RUN apt-get update && apt-get install -y \
+    git \
+    unzip \
+    wget \
+    software-properties-common \
+    && rm -rf /var/lib/apt/lists/*
+```
