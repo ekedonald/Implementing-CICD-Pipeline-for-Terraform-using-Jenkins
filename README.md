@@ -104,3 +104,9 @@ RUN apt-get update && apt-get install -y \
 3. Run the `docker ps` command to check that the container is running.
 
 4. Access the Jenkins server from your web browser on `localhost:8080`
+
+5. Access the Jenkins Server directly inside the container from your terminal using the command shown below:
+
+```sh
+docker exec -it  800f8f48466b  /bin/bash
+```
