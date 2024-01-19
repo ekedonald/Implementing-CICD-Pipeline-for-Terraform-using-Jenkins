@@ -86,4 +86,19 @@ RUN apt-get update && apt-get install -y \
  ### Step 2: Building and Running the Docker Image
  Make sure that you are inside the folder containing the `Dockerfile`. This is generally referred to as the `Docker Build Context`, the build context is the set of files located in the specified directory or path when you build a Docker image using the `docker build command`. The content of the build context is sent to the Docker daemon during the build process and it serves as the source for building the Docker image as shown below:
 
- 1. 
+ 1. Run the command below to build the custom jenkins image. Notice the `.` at the end of the command, it is the `docker build context` meaning the current directory where the Dockerfile is.
+
+ ```sh
+  docker build -t jenkins-server .
+ ```
+
+ 2. Run the image into a docker using the command below:
+
+ ```sh
+ docker run -d -p 8080:8080 --name jenkins-server jenkins-server 
+ ```
+
+ This should output a hash data like:
+`800f8f48466b3419d7cbf37908b12f146120b31260147bdd3b433d23e60f976b`
+
+
