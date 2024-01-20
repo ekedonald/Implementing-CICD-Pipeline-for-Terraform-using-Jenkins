@@ -167,6 +167,12 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 * Click on the `Available Plugins` tab.
 
+* Go to your terminal and run the follwing command to check the status of the container:
+
+```sh
+docker ps -a
+```
+
 * Search and tick the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform**.
 
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
