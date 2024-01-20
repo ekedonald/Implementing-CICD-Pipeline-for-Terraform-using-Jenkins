@@ -224,8 +224,19 @@ http://localhost:8080
 
 ### Step 5: Set up a Git repository with Terraform code
 
-* Fork the https://github.com/dareyio/terraform-aws-pipeline.git repository into your own GitHub account.
+* Fork the https://github.com/dareyio/terraform-aws-pipeline.git repository into your own GitHub account. _**Note**: This repository contains configuration files that provisions Kubernetes Cluster using EKS and creates AWS Networking Infrastructure_.
 
+* The `provider.tf` file has an S3 backend configuration used to store the Terraform state file.
+
+* Go to your terminal and reate your own bucket using the command shown below:
+
+```sh
+aws s3api create-bucket --bucket <bucket_name> --region <aws_region>
+```
+
+_**Note**: Ensure you have **AWS CLI** installed on your PC and have configured it to with the **Access Key ID** and **Secret Access Key** using the `aws configure` command_.
+
+* Update 
 
 ### Step 6:Set up a Jenkins Multibranch Pipeline for Terraform CICD
 
