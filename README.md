@@ -226,6 +226,25 @@ http://localhost:8080
 
 * Fork the https://github.com/dareyio/terraform-aws-pipeline.git repository into your own GitHub account. _**Note**: This repository contains configuration files that provisions Kubernetes Cluster using EKS and creates AWS Networking Infrastructure_.
 
+* Create a repo called `terraform-aws-pipeline` on your GitHub account.
+
+* Create a folder called `terraform-aws-pipeline` and enter the directory using the command shown below:
+
+```sh
+mkdir terraform-aws-pipeline
+cd terraform-aws-pipeline
+```
+
+* Run the following the commands to fork the repository into the GitHub repository you created:
+
+```sh
+git init
+git pull https://github.com/dareyio/terraform-aws-pipeline.git
+git remote add origin https://github.com/<github_username>/terraform-aws-pipeline.git
+git branch -M main
+git push -u origin main
+```
+
 * The `provider.tf` file has an S3 backend configuration used to store the Terraform state file.
 
 * Go to your terminal and create your own bucket using the command shown below:
@@ -238,7 +257,7 @@ _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured 
 
 * Update the bucket name and on the backend configuration of the `provider.tf` file.
 
-* 
+* Push the lates changes to GitHub.
 
 ### Step 6:Set up a Jenkins Multibranch Pipeline for Terraform CICD
 
