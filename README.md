@@ -192,6 +192,34 @@ docker restart <container_id>
 
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
 
+* Go to your GitHub account on your browser, click on the profile icon and click `settings`.
+
+* Click on `Developer settings`.
+
+* Click on `Personal acces tokens` and click on `Tokens (classic)`.
+
+* Click on `Generate new token` and `Generate new token (classic)`.
+
+* Input your password.
+
+* Type `terraform cicd` as the note, select all the scopes and click on `Generate token`.
+
+* Copy the token generated.
+
+* Log into Jenkins.
+
+```sh
+http://localhost:8080
+```
+
+* Click on `Manage Jenkins` and click on `Credentials`.
+
+* Click on the arrow beside `global` and select `Add credentials`.
+
+
+
+
+
 ### Step 5: Set up a Git repository with Terraform code
 
 ### Step 6:Set up a Jenkins Multibranch Pipeline for Terraform CICD
