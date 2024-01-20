@@ -216,10 +216,11 @@ http://localhost:8080
 
 * Click on the arrow beside `global` and select `Add credentials`.
 
-* Select `Username with password` as kind, input your **GitHub account email address** as the `username`, paste the **GitHub token** as the `password` and name the `ID` **Github-access**.
+* Select **Username with password** as `kind`, input your **GitHub account email address** as the `username`, paste the **GitHub token** as the `password`, name the `ID` **Github-access** and click on `Create`.
 
-* 
+* Click on the arrow beside `global` and select `Add credentials` on the stores scoped to Jenkins tab.
 
+* Select **AWS Credentials** as the `kind`, input **AWS_CRED** as the `ID` and paste the paste the **Access Key ID** and **Secret Access Key** generated from your AWS IAM user console and click on `Create`. **Note**: If you need a reminder on how to create IAM user Access and Secret Key in AWS cosole, [click here](https://www.youtube.com/watch?v=HuE-QhrmE1c&feature=youtu.be).
 
 ### Step 5: Set up a Git repository with Terraform code
 
