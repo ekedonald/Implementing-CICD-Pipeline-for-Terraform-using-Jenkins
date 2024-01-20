@@ -175,7 +175,13 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 docker ps -a
 ```
 
-* 
+* Restart the container using the command shown below:
+
+```sh
+docker restart <container_id>
+```
+
+
 
 * Search and tick the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform**.
 
