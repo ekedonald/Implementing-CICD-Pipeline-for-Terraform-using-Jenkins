@@ -99,7 +99,16 @@ RUN apt-get update && apt-get install -y \
  ```
 
  This should output a hash data like:
+
 `800f8f48466b3419d7cbf37908b12f146120b31260147bdd3b433d23e60f976b`
+
+Let us break down the `docker run` command for a clear understanding:
+
+* `docker run`: This command is used to runa Docker container.
+
+* `-d`:This flag stands for "detach". It runs the container in the background allowing you to continue using the terminal for other commands.
+
+* `-p 8080:8080`: This flag maps the `8080` from the host to the port `8080` inside the container. It means that you can access the applicatiob running inside the container on your host machine's port **8080**. Simply go to the browser and put in there `localhost:8080` to display the application.
 
 3. Run the `docker ps` command to check that the container is running.
 
