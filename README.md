@@ -129,7 +129,10 @@ Let's break down the command:
 
 * `container_id`: It uniquely identifies the running container. In thus case, replace it with the actual ID or name of your container. You can get this from the out put of the `docker ps` command.
 
-* `/bin/bash`: 
+* `/bin/bash`: This command is used execute commadns inside the container. In this case, it's launching an interactive Bash shell within the specified container.
+
+So when you run this command, Docker will do the following:
+
 
 5. Retrieve the initial Jenkins admin password using the command shown below:
 
