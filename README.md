@@ -110,6 +110,10 @@ Let us break down the `docker run` command for a clear understanding:
 
 * `-p 8080:8080`: This flag maps the `8080` from the host to the port `8080` inside the container. It means that you can access the applicatiob running inside the container on your host machine's port **8080**. Simply go to the browser and put in there `localhost:8080` to display the application.
 
+* `--name jenkins-server`: This flag assigns a name to the container. In this case, the name is set to `jenkins-server`
+
+* `jenkins-server`: This is the name of the Docker image that you want to run. It refers to the image named `jenkins-server` that was built earlier when we ran the `docker build` command.
+
 3. Run the `docker ps` command to check that the container is running.
 
 4. Access the Jenkins Server directly inside the container from your terminal using the command shown below:
