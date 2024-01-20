@@ -181,7 +181,9 @@ docker ps -a
 docker restart <container_id>
 ```
 
+* Then go back to the brower and log in to Jenkins with your admin credentials to access Jenkins.
 
+*
 
 * Search and tick the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform**.
 
