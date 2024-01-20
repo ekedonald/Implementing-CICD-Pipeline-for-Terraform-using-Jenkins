@@ -232,7 +232,8 @@ http://localhost:8080
 
 * Type **terraform-cicd** as the `display name` and `description`, click on `add source` and select **GitHub source**.
 
+* Select the **credentials** to be used to connect to GitHub from Jenkins and paste the **repository url** you forked from https://github.com/dareyio/terraform-aws-pipeline.git.
 
-
+* Leave everything at default and hit `save`.
 
 
