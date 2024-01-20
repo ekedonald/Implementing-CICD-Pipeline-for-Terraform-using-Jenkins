@@ -224,6 +224,9 @@ http://localhost:8080
 
 ### Step 5: Set up a Git repository with Terraform code
 
+* Fork the https://github.com/dareyio/terraform-aws-pipeline.git repository into your own GitHub account.
+
+
 ### Step 6:Set up a Jenkins Multibranch Pipeline for Terraform CICD
 
 * On the Jenkins dashboard, click on `New Item`.
