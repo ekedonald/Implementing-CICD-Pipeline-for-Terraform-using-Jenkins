@@ -228,7 +228,7 @@ http://localhost:8080
 
 * The `provider.tf` file has an S3 backend configuration used to store the Terraform state file.
 
-* Go to your terminal and reate your own bucket using the command shown below:
+* Go to your terminal and create your own bucket using the command shown below:
 
 ```sh
 aws s3api create-bucket --bucket <bucket_name> --region <aws_region>
@@ -236,7 +236,9 @@ aws s3api create-bucket --bucket <bucket_name> --region <aws_region>
 
 _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured it to with the **Access Key ID** and **Secret Access Key** using the `aws configure` command_.
 
-* Update 
+* Update the bucket name and on the backend configuration of the `provider.tf` file.
+
+* 
 
 ### Step 6:Set up a Jenkins Multibranch Pipeline for Terraform CICD
 
