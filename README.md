@@ -216,8 +216,9 @@ http://localhost:8080
 
 * Click on the arrow beside `global` and select `Add credentials`.
 
-* Select `Username with password` as kind, input your **GitHub account email address** as the `username` and paste the **GitHub token** as the `password`.
+* Select `Username with password` as kind, input your **GitHub account email address** as the `username`, paste the **GitHub token** as the `password` and name the `ID` **Github-access**.
 
+* 
 
 
 ### Step 5: Set up a Git repository with Terraform code
