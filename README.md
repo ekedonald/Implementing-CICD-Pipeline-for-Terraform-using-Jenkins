@@ -161,7 +161,7 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 ### Step 3: Install GitHub, AWS Credentials and Terraform plugins on Jenkins
 
-In order to implement a CICD pipeline for Terraform using Jenkins, the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform** plugins need to be installed on Jenkins to communicate with the GitHub repository that has the configuration files for this project as well as AWS to build the infrastructure. 
+In order to implement a CICD pipeline for Terraform using Jenkins, the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform** plugins need to be installed on Jenkins to communicate with the GitHub repository that has the configuration files for this project and to interact AWS services using the Access Keys and ID during the execution of tasks and deployment.
 
 The following steps are taken to install these plugins:
 
@@ -187,9 +187,8 @@ docker restart <container_id>
 
 * Then go back to the brower and log in to Jenkins with your admin credentials to access Jenkins.
 
-* Navigate to the **Installed plugins** section and you should now see the newly installed plugins.
+* Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e.**GitHub Integration**, **AWS Credentials** and **Terraform**) you should now see the newly installed plugins.
 
-* Search and tick the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform**.
 
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
 
