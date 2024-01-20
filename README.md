@@ -161,6 +161,14 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 ### Step 3: Install GitHub, AWS Credentials and Terraform plugins on Jenkins
 
+* Click on the `Manage Jenkins` tab.
+
+* Click on the `Plugins` tab.
+
+* Click on the `Available Plugins` tab.
+
+* Search and tick the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform**.
+
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
 
 ### Step 5: Set up a Git repository with Terraform code
