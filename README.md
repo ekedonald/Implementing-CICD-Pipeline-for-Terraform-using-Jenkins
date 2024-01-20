@@ -102,7 +102,7 @@ RUN apt-get update && apt-get install -y \
 
 `800f8f48466b3419d7cbf37908b12f146120b31260147bdd3b433d23e60f976b`
 
-Let us break down the `docker run` command for a clear understanding:
+Let's break down the `docker run` command for a clear understanding:
 
 * `docker run`: This command is used to runa Docker container.
 
@@ -121,6 +121,15 @@ Let us break down the `docker run` command for a clear understanding:
 ```sh
 docker exec -it  <container_id>  /bin/bash
 ```
+
+Let's break down the command:
+* `docker exec`: This command is used to execute a command in a running Docker container.
+
+* `-it`: These flags are often used together. The `-i` flag stands for interactive (i.e. allows you to interact with the container) and the `-t` flag allocates psedudo-TTY enabling a more interactive session.
+
+* `container_id`: It uniquely identifies the running container. In thus case, replace it with the actual ID or name of your container. You can get this from the out put of the `docker ps` command.
+
+* `/bin/bash`: 
 
 5. Retrieve the initial Jenkins admin password using the command shown below:
 
