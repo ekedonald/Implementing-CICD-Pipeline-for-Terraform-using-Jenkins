@@ -236,4 +236,6 @@ http://localhost:8080
 
 * Leave everything at default and hit `save`.
 
+* You will immediately see the scanning of the repository for branches and the **Jenkinsfile**.
 
+* The `terraform-cicd` pipeline and main branch scanned.
