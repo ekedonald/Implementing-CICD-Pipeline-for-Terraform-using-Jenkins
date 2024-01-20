@@ -167,11 +167,15 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 * Click on the `Available Plugins` tab.
 
+* If everyting is successful then click `restart jenkins`. _**Note**: You may need to refresh your browser if the restart takes a long time. If this happens, your docker container may exit and Jenkins will no longer load on your browser._
+
 * Go to your terminal and run the follwing command to check the status of the container:
 
 ```sh
 docker ps -a
 ```
+
+* 
 
 * Search and tick the following plugins: **GitHub Integration**, **AWS Credentials** and **Terraform**.
 
