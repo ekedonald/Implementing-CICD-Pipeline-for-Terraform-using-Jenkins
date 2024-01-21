@@ -275,7 +275,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 `TF_CLI_ARG = 'no-color'`: This sets an environment variable for Teraform. It tells Teraform to not colorize its output which can be useful for logging and readability in CICD environments. 
 
 #### Stages
-`stages { ... }`
+`stages { ... }`: This block defines the various stages of the pipeline. Each stage is a step in the pipeline process.
 
 ##### Stage: Checkout
 `stage('Checkout') { ... }`
