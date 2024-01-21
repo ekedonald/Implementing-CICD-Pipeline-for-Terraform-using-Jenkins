@@ -283,9 +283,9 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 `checkout scm`: This checks out source code from the Source Control Management (SCM) sytem configured for the job (i.e. Git).
 
 ##### Stage: Plan
-`stage('Terraform Plan') { ... }`
+`stage('Terraform Plan') { ... }`: This stage is responsible for running a Terraform plan.
 
-`withCredentials([aws(...)]) { ... }`
+`withCredentials([aws(...)]) { ... }`: This block securely injects AWS credentials into the environment.
 
 `sh 'terraform init'`
 
