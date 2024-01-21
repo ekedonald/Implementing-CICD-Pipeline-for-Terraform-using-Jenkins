@@ -270,7 +270,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 `agent any`: This line specifies that the pipeline can run on any available agent. In Jenkins, an agent is a worker that executes the job. **Any** means it doess't require a specific agent configuration.
 
 #### Environment
-`environment { ... }`
+`environment { ... }`: This section is used to define environment variables that are applicable to all stafes of the pipeline.
 
 `TF_CLI_ARG = 'no-color'`
 
