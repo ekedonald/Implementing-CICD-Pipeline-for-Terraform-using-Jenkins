@@ -280,7 +280,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 ##### Stage: Checkout
 `stage('Checkout') { ... }`: This is the first stage and it is typically used to checkout the source code from a version control system.
 
-`checkout scm`
+`checkout scm`: This checks out source code from the Source Control Management (SCM) sytem configured for the job (i.e. Git).
 
 ##### Stage: Plan
 `stage('Terraform Plan') { ... }`
