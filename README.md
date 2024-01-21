@@ -263,25 +263,26 @@ _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured 
 
 The `Jenkinsfile` pipeline automates the process of code checkout, planning infrastructure changes with Terraform and conditionally applying those changes. It is designed to ensure that changes to infrastructure managed by Teraform are reviewed and applied systemically before applying changes to critical environments like production.
 
-##### Pipeline
+#### Pipeline
 `pipeline { ... }`
 
-##### Agent
+#### Agent
 `agent any`
 
-##### Environment
+#### Environment
 `environment { ... }`
 
 `TF_CLI_ARG = 'no-color'`
 
-##### Stages
+#### Stages
 `stages { ... }`
 
-###### Stage: Checkout
+##### Stage: Checkout
 `stage('Checkout') { ... }`
 
 `checkout scm`
 
+##### Stage: Plan
 `stage('Terraform Plan') { ... }`
 
 `withCredentials([aws(...)]) { ... }`
@@ -290,9 +291,11 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 `sh 'terraform plan -out=tfplan'`
 
+##### Stage: Teraform Apply
+
 `stage('Terraform Apply') { ... }`
 
-`when { ... }` `expression { env.BRANCH_NAME == 'main' }` `main`
+`when { ... }`: This block sets conditions for executing this stage and the `expression { env.BRANCH_NAME == 'main' }` condition checks if the pipeline is running on the `main` branch.
 
 `expression { ... }`
 
