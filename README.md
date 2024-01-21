@@ -277,6 +277,14 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 `checkout scm`
 
+`stage('Terraform Plan') { ... }`
+
+`withCredentials([aws(...)]) { ... }`
+
+`sh 'terraform init'`
+
+`sh 'terraform plan -out=tfplan'`
+
 
 
 ### Step 6:Set up a Jenkins Multibranch Pipeline for Terraform CICD
