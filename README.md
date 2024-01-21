@@ -287,9 +287,9 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 `withCredentials([aws(...)]) { ... }`: This block securely injects AWS credentials into the environment.
 
-`sh 'terraform init'`
+`sh 'terraform init'`: This intializes Terraform in the current directory.
 
-`sh 'terraform plan -out=tfplan'`
+`sh 'terraform plan -out=tfplan'`: This runs Terraform plan and outputs the plan to a file named 'tfplan'.
 
 ##### Stage: Teraform Apply
 
