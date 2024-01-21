@@ -264,10 +264,10 @@ _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured 
 The `Jenkinsfile` pipeline automates the process of code checkout, planning infrastructure changes with Terraform and conditionally applying those changes. It is designed to ensure that changes to infrastructure managed by Teraform are reviewed and applied systemically before applying changes to critical environments like production.
 
 #### Pipeline
-`pipeline { ... }`
+`pipeline { ... }`: This is the wrapper for the entire pipeline script. Everything that defines what the pipeline does is included within these braces.
 
 #### Agent
-`agent any`
+`agent any`: This line specifies that the pipeline can run on any available agent. In Jenkins, an agent is a worker that executes the job. **Any** means it doess't require a specific agent configuration.
 
 #### Environment
 `environment { ... }`
