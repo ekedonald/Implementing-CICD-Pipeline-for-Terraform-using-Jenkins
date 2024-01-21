@@ -293,7 +293,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 ##### Stage: Teraform Apply
 
-`stage('Terraform Apply') { ... }`
+`stage('Terraform Apply') { ... }`: This stage applies the changes from Terraform plan to make infrastructure chnages.
 
 `when { ... }`: This block sets conditions for executing this stage and the `expression { env.BRANCH_NAME == 'main' }` condition checks if the pipeline is running on the `main` branch.
 
