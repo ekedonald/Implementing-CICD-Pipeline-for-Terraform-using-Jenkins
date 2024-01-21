@@ -278,7 +278,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 `stages { ... }`: This block defines the various stages of the pipeline. Each stage is a step in the pipeline process.
 
 ##### Stage: Checkout
-`stage('Checkout') { ... }`
+`stage('Checkout') { ... }`: This is the first stage and it is typically used to checkout the source code from a version control system.
 
 `checkout scm`
 
