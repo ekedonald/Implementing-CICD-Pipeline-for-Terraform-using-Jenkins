@@ -243,7 +243,7 @@ http://localhost:8080
 
 * Create a repo called `terraform-aws-pipeline` on your GitHub account.
 
-* Create a folder called `terraform-aws-pipeline` and enter the directory using the command shown below:
+* Open terminla on your PC, create a folder called `terraform-aws-pipeline` and enter the directory using the command shown below:
 
 ```sh
 mkdir terraform-aws-pipeline
