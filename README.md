@@ -127,7 +127,7 @@ Let's break down the `docker run` command for a clear understanding:
 
 * `jenkins-server`: This is the name of the Docker image that you want to run. It refers to the image named `jenkins-server` that was built earlier when we ran the `docker build` command.
 
-3. Run the `docker ps` command to check that the container is running.
+3. Run the `docker ps` command to check that the container is running and copy the **Container ID**.
 
 4. Access the Jenkins Server directly inside the container from your terminal using the command shown below:
 
