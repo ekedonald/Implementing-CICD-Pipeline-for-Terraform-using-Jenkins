@@ -272,7 +272,11 @@ _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured 
 
 * Update the bucket name and on the backend configuration of the `provider.tf` file.
 
-* Push the latest changes to GitHub.
+* Push the latest changes to GitHub using the following command:
+
+```sh
+git add provider.tf && git commit -m "updates" && git push
+```
 
 #### Let us talk about the Jenkinsfile in the GitHub repository
 
