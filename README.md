@@ -12,8 +12,19 @@ The following steps are taken to implement a CICD pipeline for Terraform using J
 Jenkins comes with a docker image that can be used out of the box to run a container with all the relevant dependencies for Jenkins but because we have a unique requirement to run terraform, we need to find a way to extend the readily available jenkins image. To acheive this, we must write a `dockerfile` and include the necessary dependencies to implement this project as shown below:
 
 1. Create a directory and name it `terraform-with-cicd`
+
+```sh
+mkdir terraform-with-cicd && cd terraform-with-cicd
+```
+
 2. Create a file and name it `Dockerfile`
-3. Copy and paste the content into the `Dockerfile`
+
+```sh
+vi Dockerfile
+```
+
+3. Copy and paste the content into the `Dockerfile` then save and exit the file.
+
 ```sh
  # Use the official Jenkins base image
  FROM jenkins/jenkins:lts
