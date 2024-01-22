@@ -184,6 +184,8 @@ The following steps are taken to install these plugins:
 
 * Click on the `Available Plugins` tab.
 
+* Search and select the following plugins: **GitHub Integration**, **Terraform** and **AWS Credentials** then click on `Install`.
+
 * If everyting is successful then click `restart jenkins`. _**Note**: You may need to refresh your browser if the restart takes a long time. If this happens, your docker container may exit and Jenkins will no longer load on your browser._
 
 * Go to your terminal and run the follwing command to check the status of the container:
@@ -215,7 +217,7 @@ docker restart <container_id>
 
 * Input your password.
 
-* Type `terraform cicd` as the note, select all the scopes and click on `Generate token`.
+* Type `terraform_cicd` as the note, select all the scopes and click on `Generate token`.
 
 * Copy the token generated.
 
