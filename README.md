@@ -198,7 +198,7 @@ docker restart <container_id>
 
 * Then go back to the brower and log in to Jenkins with your admin credentials to access Jenkins.
 
-* Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e.**GitHub Integration**, **AWS Credentials** and **Terraform**) you should now see the newly installed plugins.
+* Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e.**GitHub Integration**, **AWS Credentials** and **Terraform**) and you should see the newly installed plugins.
 
 
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
