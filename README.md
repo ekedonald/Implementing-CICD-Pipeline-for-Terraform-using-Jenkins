@@ -178,9 +178,7 @@ In order to implement a CICD pipeline for Terraform using Jenkins, the following
 
 The following steps are taken to install these plugins:
 
-* Click on the `Manage Jenkins` tab.
-
-* Click on the `Plugins` tab.
+* Click on the `Manage Jenkins` and `Plugins` tab.
 
 * Click on the `Available Plugins` tab.
 
