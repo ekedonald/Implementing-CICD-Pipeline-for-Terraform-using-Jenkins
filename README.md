@@ -17,6 +17,8 @@ Jenkins comes with a docker image that can be used out of the box to run a conta
 mkdir terraform-with-cicd && cd terraform-with-cicd
 ```
 
+![create terraform-with-cicd](./images/1.%20create%20terraform-cicd%20directory.png)
+
 2. Create a file and name it `Dockerfile`
 
 ```sh
