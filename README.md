@@ -60,6 +60,8 @@ vi Dockerfile
  USER jenkins
 ```
 
+![Dockerfile](./images/1.%20vi%20Dockerfile.png)
+
 #### Explaining the Dockerfile
 1. `FROM jenkins/jenkins:lts`: This line specifies the base image for the Dockerfile. In this case, it's using the official Jenkins LTS (Long Term Support) image as a starting point.
 
