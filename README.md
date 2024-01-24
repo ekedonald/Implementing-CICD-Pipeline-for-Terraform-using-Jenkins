@@ -109,6 +109,8 @@ RUN apt-get update && apt-get install -y \
   docker build -t jenkins-server .
  ```
 
+ ![docker build](./images/2.%20docker%20build%20-t%20.png)
+
  2. Run the image into a docker using the command below:
 
  ```sh
