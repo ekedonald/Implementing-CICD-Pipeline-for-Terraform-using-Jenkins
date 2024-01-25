@@ -199,9 +199,16 @@ The following steps are taken to install these plugins:
 
 * Click on the `Manage Jenkins` and `Plugins` tab.
 
+![manage jenkins and plugins tab](./images/3.%20manage%20jenkins%20and%20plugins%20tab.png)
+
 * Click on the `Available Plugins`, Search and select the following plugins: **GitHub Integration**, **Terraform** and **AWS Credentials** then click on `Install`.
 
+![available plugins](./images/3.%20available%20plugins.png)
+
 * If everything is successful then click `restart jenkins`. _**Note**: You may need to refresh your browser if the restart takes a long time. If this happens, your docker container may exit and Jenkins will no longer load on your browser._
+
+![restart jenkins](./images/3.%20restart%20jenkins.png)
+![restart jenkins1](./images/3.%20restart%20jenkins1.png)
 
 * Go to your terminal and run the follwing command to check the status of the container:
 
