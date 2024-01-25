@@ -232,6 +232,10 @@ docker restart <container_id>
 
 * Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e.**GitHub Integration**, **AWS Credentials** and **Terraform**) and you should see the newly installed plugins.
 
+![installed plugins1](./images/3.%20installed%20github%20plugin.png)
+![installed plugins2](./images/3.%20installed%20aws%20credentials%20plugin.png)
+![installed plugins3](./images/3.%20installed%20terraform%20plugin.png)
+
 
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
 
