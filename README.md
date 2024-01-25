@@ -185,7 +185,11 @@ cat /var/jenkins_home/secrets/initialAdminPassword
 
 7. Install the suggested plugins.
 
+![install suggested plugins](./images/2.%20install%20suggested%20plugins.png)
+
 8. Create your admin user and access Jenkins.
+
+![create admin user](./images/2.%20create%20admin%20user.png)
 
 ### Step 3: Install GitHub, AWS Credentials and Terraform plugins on Jenkins
 
