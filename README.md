@@ -138,11 +138,21 @@ Let's break down the `docker run` command for a clear understanding:
 
 3. Run the `docker ps` command to check that the container is running and copy the **Container ID**.
 
+![docker ps](./images/2.%20docker%20ps.png)
+
 4. Access the Jenkins Server directly inside the container from your terminal using the command shown below:
 
 ```sh
 docker exec -it  <container_id>  /bin/bash
 ```
+
+![docker exec](./images/2.%20docker%20exec.png)
+
+```sh
+pwd
+```
+
+![pwd](./images/2.%20docker%20pwd.png)
 
 Let's break down the command:
 * `docker exec`: This command is used to execute a command in a running Docker container.
@@ -160,14 +170,6 @@ So when you run this command, Docker will do the following:
 * Specify the command to execute inside the container which is `/bin/bash`.
 
 You will also notice that once you get into the container, the directory you get to find yourself is the `/app` which is from the `WORKDIR` directive inside the `Dockerfile`.
-
-```sh
-docker exec -it <container_id> /bin/bash
-```
-
-```sh
-pwd
-```
 
 5. Retrieve the initial Jenkins admin password using the command shown below:
 
