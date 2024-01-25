@@ -121,6 +121,9 @@ RUN apt-get update && apt-get install -y \
 
 `800f8f48466b3419d7cbf37908b12f146120b31260147bdd3b433d23e60f976b`
 
+
+![docker run](./images/2.%20docker%20run.png)
+
 Let's break down the `docker run` command for a clear understanding:
 
 * `docker run`: This command is used to runa Docker container.
