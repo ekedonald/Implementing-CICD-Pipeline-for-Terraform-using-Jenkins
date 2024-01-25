@@ -260,7 +260,12 @@ docker restart <container_id>
 
 * Type `terraform_cicd` as the note, select all the scopes and click on `Generate token`.
 
+![terraform_cicd](./images/4.%20terraform_cicd%20token.png)
+![generate token](./images/4.%20generate%20token.png)
+
 * Copy the token generated.
+
+![copy token](./images/4.%20copy%20token%20generated%20.png)
 
 * Log into Jenkins.
 
