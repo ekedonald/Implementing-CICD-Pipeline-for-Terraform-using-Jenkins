@@ -236,18 +236,27 @@ docker restart <container_id>
 ![installed plugins2](./images/3.%20installed%20aws%20credentials%20plugin.png)
 ![installed plugins3](./images/3.%20installed%20terraform%20plugin.png)
 
-
 ### Step 4: Configure GitHub and AWS Credentials on Jenkins
 
 * Go to your GitHub account on your browser, click on the profile icon and click `settings`.
 
+![profile icon and settings](./images/4.%20profile%20icon%20and%20settings.png)
+
 * Click on `Developer settings`.
 
-* Click on `Personal acces tokens` and click on `Tokens (classic)`.
+![developer settings](./images/4.%20developer%20settings.png)
+
+* Click on `Personal access tokens` and click on `Tokens (classic)`.
+
+![personal access tokens](./images/4.%20personal%20access%20tokens%20and%20tokens%20classic.png)
 
 * Click on `Generate new token` and `Generate new token (classic)`.
 
+![generate new token](./images/4.%20generate%20new%20token.png)
+
 * Input your password.
+
+![input password](./images/4.%20input%20your%20password.png)
 
 * Type `terraform_cicd` as the note, select all the scopes and click on `Generate token`.
 
