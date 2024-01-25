@@ -177,7 +177,11 @@ You will also notice that once you get into the container, the directory you get
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
+![cat initialadminpassword](./images/2.%20cat%20initialadminpassword.png)
+
 6. Access the Jenkins server from your web browser on `localhost:8080` and paste the `initialAdminPassword`
+
+![localhost](./images/2.%20localhost_8080.png)
 
 7. Install the suggested plugins.
 
