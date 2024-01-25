@@ -216,13 +216,19 @@ The following steps are taken to install these plugins:
 docker ps -a
 ```
 
+![docker ps -a](./images/3.%20docker%20ps%20-a.png)
+
 * Restart the container using the command shown below:
 
 ```sh
 docker restart <container_id>
 ```
 
+![docker restart](./images/3.%20docker%20restart.png)
+
 * Then go back to the brower and log in to Jenkins with your admin credentials to access Jenkins.
+
+![logback into jenkins](./images/3.%20log%20back%20into%20jenkins.png)
 
 * Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e.**GitHub Integration**, **AWS Credentials** and **Terraform**) and you should see the newly installed plugins.
 
