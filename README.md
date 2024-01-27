@@ -275,7 +275,11 @@ http://localhost:8080
 
 * Click on `Manage Jenkins` and click on `Credentials`.
 
+![manage jenkins and credentials](./images/4.%20manage%20jenkins%20and%20credentials.png)
+
 * Click on the arrow beside `global` and select `Add credentials`.
+
+![add credentials](./images/4.%20global%20and%20add%20credentials.png)
 
 * Select **Username with password** as `kind`, input your **GitHub account email address** as the `username`, paste the **GitHub token** as the `password`, name the `ID` **Github-access** and click on `Create`.
 
