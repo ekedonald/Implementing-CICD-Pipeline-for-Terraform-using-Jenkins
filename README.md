@@ -344,6 +344,8 @@ _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured 
 git add provider.tf && git commit -m "updates" && git push
 ```
 
+![push changes to github](./images/5.%20push%20changes%20to%20github.png)
+
 #### Let us talk about the Jenkinsfile in the GitHub repository
 
 The `Jenkinsfile` pipeline automates the process of code checkout, planning infrastructure changes with Terraform and conditionally applying those changes. It is designed to ensure that changes to infrastructure managed by Teraform are reviewed and applied systemically before applying changes to critical environments like production.
