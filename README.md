@@ -392,7 +392,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * On the Jenkins dashboard, click on `New Item`.
 
-* Name the item `terraform-cicd` and click `ok`.
+* Name the item `terraform-cicd`, select `Multibranch Pipeline` and click `ok`.
 
 * Type **terraform-cicd** as the `display name` and `description`, click on `add source` and select **GitHub source**.
 
