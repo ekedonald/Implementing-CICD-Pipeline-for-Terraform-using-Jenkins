@@ -320,6 +320,8 @@ git branch -M main
 git push -u origin main
 ```
 
+![fork the repo](./images/5.%20fork%20the%20repo%20commands.png)
+
 * The `provider.tf` file has an S3 backend configuration used to store the Terraform state file.
 
 * Go to your terminal and create your own bucket using the command shown below:
