@@ -301,7 +301,7 @@ http://localhost:8080
 
 ![create terraform aws pipeline repo](./images/5.%20create%20terraform-aws-pipeline%20repo.png)
 
-* Open terminla on your PC, create a folder called `terraform-aws-pipeline` and enter the directory using the command shown below:
+* Open terminal on your PC, create a folder called `terraform-aws-pipeline` and enter the directory using the command shown below:
 
 ```sh
 mkdir terraform-aws-pipeline
