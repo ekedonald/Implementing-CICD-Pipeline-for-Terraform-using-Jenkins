@@ -330,6 +330,8 @@ git push -u origin main
 aws s3api create-bucket --bucket <bucket_name> --region <aws_region>
 ```
 
+![create s3 bucket](./images/5.%20create%20s3%20bucket.png)
+
 _**Note**: Ensure you have **AWS CLI** installed on your PC and have configured it to with the **Access Key ID** and **Secret Access Key** using the `aws configure` command_.
 
 * Update the bucket name and on the backend configuration of the `provider.tf` file.
