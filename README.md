@@ -308,6 +308,8 @@ mkdir terraform-aws-pipeline
 cd terraform-aws-pipeline
 ```
 
+![mkdir and cd teraform-aws-pipeline](./images/5.%20mkdir%20and%20cd%20terraform-aws-pipeline.png)
+
 * Run the following the commands to fork the repository into the GitHub repository you created:
 
 ```sh
