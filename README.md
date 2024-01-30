@@ -412,7 +412,11 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * Click on the build number.
 
-* Click on the logs of the **Terraform Plan** stage to view the command line output.
+![build number](./images/6.%20click%20on%20the%20build%20number.png)
+
+* Move your cursor to the **Terraform Plan** stage and click on `logs` to view the command line output.
+
+![terrafrom plan output](./images/6.%20terraform%20plan%20command%20line%20output.png)
 
 * The **Terraform Apply** stage failed, click on the failed console output icon and scroll down to view the error message.
 
