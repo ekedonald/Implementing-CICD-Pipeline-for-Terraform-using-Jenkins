@@ -394,12 +394,24 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * Name the item `terraform_cicd`, select `Multibranch Pipeline` and click `ok`.
 
-* Type **terraform_cicd** as the `display name` and `description`, click on `add source` and select **GitHub source**.
+* Type **terraform_cicd** as the `display name` and `description`.
 
 * On the **Branch Sources** tab, click on `Add source` and `Git`, select the **credentials** to be used to connect to GitHub from Jenkins and paste the **repository url** you forked from https://github.com/dareyio/terraform-aws-pipeline.git.
 
 * Leave everything at default, click on `Apply` and hit `Save`.
 
 * You will immediately see the scanning of the repository for branches and the **Jenkinsfile**.
+
+* Click on the build number.
+
+* Click on the logs of the **Terraform Plan** stage to view the command line output.
+
+* The **Terraform Apply** stage failed, click on the failed console output icon and scroll down to view the error message.
+
+* To fix the `Scripts not permitted to use method`, go to the Jenkins Dashboard, click on `Manage Jenkins`, scfoll down to the `Security Tab` and click on `In-Process Script Approval`.
+
+* Click on `Approve` and 
+
+* Go back to your `terraform-cicd` multibranch pipeline and initiate another build.
 
 * The `terraform-cicd` pipeline and main branch scanned.
