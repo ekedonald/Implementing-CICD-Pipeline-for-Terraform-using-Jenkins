@@ -414,4 +414,6 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * Go back to your `terraform-cicd` multibranch pipeline and initiate another build.
 
+* The build failed again, check on the console output icon to view the error message.
+
 * The `terraform-cicd` pipeline and main branch scanned.
