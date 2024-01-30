@@ -392,7 +392,11 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * On the Jenkins dashboard, click on `New Item`.
 
+![new item](./images/6.%20new%20item.png)
+
 * Name the item `terraform_cicd`, select `Multibranch Pipeline` and click `ok`.
+
+![terraform_cicd and mulibranch pipeline](./images/6.%20terraform_cicd%20and%20multibranch.png)
 
 * Type **terraform_cicd** as the `display name` and `description`.
 
