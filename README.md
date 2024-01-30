@@ -453,4 +453,4 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * The `terraform-cicd` multibranch pipeline build is successful.
 
-
+![successful build](./images/6.%20the%20pipleline%20successful.png)
