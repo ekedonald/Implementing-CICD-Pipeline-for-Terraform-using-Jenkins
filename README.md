@@ -392,9 +392,9 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * On the Jenkins dashboard, click on `New Item`.
 
-* Name the item `terraform-cicd`, select `Multibranch Pipeline` and click `ok`.
+* Name the item `terraform_cicd`, select `Multibranch Pipeline` and click `ok`.
 
-* Type **terraform-cicd** as the `display name` and `description`, click on `add source` and select **GitHub source**.
+* Type **terraform_cicd** as the `display name` and `description`, click on `add source` and select **GitHub source**.
 
 * On the **Branch Sources** tab, click on `Add source` and `Git`, select the **credentials** to be used to connect to GitHub from Jenkins and paste the **repository url** you forked from https://github.com/dareyio/terraform-aws-pipeline.git.
 
