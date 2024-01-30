@@ -420,6 +420,9 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * The **Terraform Apply** stage failed, click on the failed console output icon and scroll down to view the error message.
 
+![terraform apply failed stage](./images/6.%20console%20output%20of%20failed%20terraform%20apply%20stage.png)
+![failed console output1](./images/6.%20cosole%20output%20error%20failed1.png)
+
 * To fix the `Scripts not permitted to use method`, go to the Jenkins Dashboard, click on `Manage Jenkins`, scroll down to the `Security Tab` and click on `In-Process Script Approval`.
 
 * Click on `Approve`.
