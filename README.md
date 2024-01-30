@@ -422,4 +422,4 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * Go back to your `terraform-cicd` multibranch pipeline, initiate another build and move your cursor to the `Terraform Apply `stage and click on `Yes` to apply changes.
 
-* The `terraform-cicd` pipeline and main branch scanned.
+* The `terraform-cicd` multibranch pipeline build is successful.
