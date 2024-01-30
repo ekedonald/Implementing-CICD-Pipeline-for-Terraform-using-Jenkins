@@ -404,7 +404,11 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * Leave everything at default, click on `Apply` and hit `Save`.
 
+![display name and description](./images/6.%20display%20name%20and%20description.png)
+
 * You will immediately see the scanning of the repository for branches and the **Jenkinsfile**.
+
+![scanning of repo](./images/6.%20scanning%20of%20repo.png)
 
 * Click on the build number.
 
