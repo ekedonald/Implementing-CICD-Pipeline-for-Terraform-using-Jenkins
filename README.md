@@ -350,6 +350,8 @@ git add provider.tf && git commit -m "updates" && git push
 
 The `Jenkinsfile` pipeline automates the process of code checkout, planning infrastructure changes with Terraform and conditionally applying those changes. It is designed to ensure that changes to infrastructure managed by Teraform are reviewed and applied systemically before applying changes to critical environments like production.
 
+![jenkinsfile](./images/jenkinsfile.png)
+
 #### Pipeline
 `pipeline { ... }`: This is the wrapper for the entire pipeline script. Everything that defines what the pipeline does is included within these braces.
 
