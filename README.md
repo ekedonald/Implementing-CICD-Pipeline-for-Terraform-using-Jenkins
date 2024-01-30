@@ -425,7 +425,11 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * To fix the `Scripts not permitted to use method`, go to the Jenkins Dashboard, click on `Manage Jenkins`, scroll down to the `Security Tab` and click on `In-Process Script Approval`.
 
+![in process script approval](./images/6.%20in-process%20script%20approval.png)
+
 * Click on `Approve`.
+
+![approve1](./images/6.%20approve1.png)
 
 * Go back to your `terraform-cicd` multibranch pipeline and initiate another build.
 
