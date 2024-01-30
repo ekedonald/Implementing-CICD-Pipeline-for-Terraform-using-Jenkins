@@ -408,12 +408,18 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * The **Terraform Apply** stage failed, click on the failed console output icon and scroll down to view the error message.
 
-* To fix the `Scripts not permitted to use method`, go to the Jenkins Dashboard, click on `Manage Jenkins`, scfoll down to the `Security Tab` and click on `In-Process Script Approval`.
+* To fix the `Scripts not permitted to use method`, go to the Jenkins Dashboard, click on `Manage Jenkins`, scroll down to the `Security Tab` and click on `In-Process Script Approval`.
 
-* Click on `Approve` and 
+* Click on `Approve`.
 
 * Go back to your `terraform-cicd` multibranch pipeline and initiate another build.
 
 * The build failed again, check on the console output icon to view the error message.
+
+* To fix the `Scipts not permitted to use method hudson.model` error, go to the Jenkins Dashboard, click on `Manage Jenkins`, scroll down to the `Security Tab` and click on `In-Process Script Approval`.
+
+* Click on `Approve`.
+
+* Go back to your `terraform-cicd` multibranch pipeline, initiate another build and move your cursor to the `Terraform Apply `stage and click on `Yes` to apply changes.
 
 * The `terraform-cicd` pipeline and main branch scanned.
