@@ -396,9 +396,9 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 * Type **terraform-cicd** as the `display name` and `description`, click on `add source` and select **GitHub source**.
 
-* Select the **credentials** to be used to connect to GitHub from Jenkins and paste the **repository url** you forked from https://github.com/dareyio/terraform-aws-pipeline.git.
+* On the **Branch Sources** tab, click on `Add source` and `Git`, select the **credentials** to be used to connect to GitHub from Jenkins and paste the **repository url** you forked from https://github.com/dareyio/terraform-aws-pipeline.git.
 
-* Leave everything at default and hit `save`.
+* Leave everything at default, click on `Apply` and hit `Save`.
 
 * You will immediately see the scanning of the repository for branches and the **Jenkinsfile**.
 
