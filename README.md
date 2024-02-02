@@ -1,7 +1,7 @@
 # Implementing CICD Pipeline for Terraform using Jenkins
 
 ## Prerequisites
-* Download [docker](https://www.docker.com/products/docker-desktop/) on your computer and ensure you download the right Docker release that is compatitible with the OS of your computer.
+* Download [docker](https://www.docker.com/products/docker-desktop/) on your computer and ensure you download the right Docker release that is compatible with the OS of your computer.
 
 * Ensure your IAM user has the following permissions: **AdministratorAccess** & **IAMFullAccess**
 
