@@ -130,7 +130,7 @@ Let's break down the `docker run` command for a clear understanding:
 
 * `-d`:This flag stands for "detach". It runs the container in the background allowing you to continue using the terminal for other commands.
 
-* `-p 8080:8080`: This flag maps the `8080` from the host to the port `8080` inside the container. It means that you can access the applicatiob running inside the container on your host machine's port **8080**. Simply go to the browser and put in there `localhost:8080` to display the application.
+* `-p 8080:8080`: This flag maps the `8080` from the host to the port `8080` inside the container. It means that you can access the application running inside the container on your host machine's port **8080**. Simply go to the browser and put in there `localhost:8080` to display the application.
 
 * `--name jenkins-server`: This flag assigns a name to the container. In this case, the name is set to `jenkins-server`.
 
@@ -226,7 +226,7 @@ docker restart <container_id>
 
 ![docker restart](./images/3.%20docker%20restart.png)
 
-* Then go back to the brower and log in to Jenkins with your admin credentials to access Jenkins.
+* Then go back to the brower and log into Jenkins with your admin credentials to access Jenkins.
 
 ![logback into jenkins](./images/3.%20log%20back%20into%20jenkins.png)
 
