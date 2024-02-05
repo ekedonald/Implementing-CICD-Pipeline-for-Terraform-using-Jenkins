@@ -230,7 +230,7 @@ docker restart <container_id>
 
 ![logback into jenkins](./images/3.%20log%20back%20into%20jenkins.png)
 
-* Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e.**GitHub Integration**, **AWS Credentials** and **Terraform**) and you should see the newly installed plugins.
+* Navigate to the **Installed plugins** section, use the search bar to search for the plugins you installed (i.e. **GitHub Integration**, **AWS Credentials** and **Terraform**) and you should see the newly installed plugins.
 
 ![installed plugins1](./images/3.%20installed%20github%20plugin.png)
 ![installed plugins2](./images/3.%20installed%20aws%20credentials%20plugin.png)
