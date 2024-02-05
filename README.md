@@ -9,7 +9,7 @@
 The following steps are taken to implement a CICD pipeline for Terraform using Jenkins:
 
 ### Step 1: Setting Up The Environment
-Jenkins comes with a docker image that can be used out of the box to run a container with all the relevant dependencies for Jenkins but because we have a unique requirement to run terraform, we need to find a way to extend the readily available jenkins image. To acheive this, we must write a `dockerfile` and include the necessary dependencies to implement this project as shown below:
+Jenkins comes with a docker image that can be used out of the box to run a container with all the relevant dependencies for Jenkins but because we have a unique requirement to run terraform, we need to find a way to extend the readily available jenkins image. To achieve this, we must write a `dockerfile` and include the necessary dependencies to implement this project as shown below:
 
 1. Create a directory and name it `terraform-with-cicd`
 
