@@ -388,7 +388,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 
 `expression { ... }`: This checks if the build was triggered by a user action.
 
-`input message: 'Do you want to apply changes?' , ok: 'Yes'`: A manual intervention step asking for confirmation vefore proceeding. If `yes` is clicked, it runs the `teraform init & apply` command otherwise, the pipeline is aborted.
+`input message: 'Do you want to apply changes?' , ok: 'Yes'`: A manual intervention step asking for confirmation before proceeding. If `yes` is clicked, it runs the `teraform init & apply` command otherwise, the pipeline is aborted.
 
 ### Step 6: Set up a Jenkins Multibranch Pipeline for Terraform CICD
 
