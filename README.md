@@ -361,7 +361,7 @@ The `Jenkinsfile` pipeline automates the process of code checkout, planning infr
 #### Environment
 `environment { ... }`: This section is used to define environment variables that are applicable to all stafes of the pipeline.
 
-`TF_CLI_ARG = 'no-color'`: This sets an environment variable for Teraform. It tells Teraform to not colorize its output which can be useful for logging and readability in CICD environments. 
+`TF_CLI_ARG = 'no-color'`: This sets an environment variable for Terraform. It tells Terraform to not colorize its output which can be useful for logging and readability in CICD environments. 
 
 #### Stages
 `stages { ... }`: This block defines the various stages of the pipeline. Each stage is a step in the pipeline process.
